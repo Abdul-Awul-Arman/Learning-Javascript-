@@ -22,12 +22,13 @@
 // var string=10 + 100+`making number`+30;
 // console.log(string);
 
-var test=10;
+// var test=10;
 
-console.log(typeof(test));
+// console.log(typeof(test));
 
-test=`10`;
-console.log(typeof(test));
+// test=`10`;
+// console.log(typeof(test));
 
-test=true;
-console.log(typeof(test));
+// test=true;
+// console.log(typeof(test));
+
