@@ -52,3 +52,6 @@ var Object={
 TheMag(Object) ('coffee');
 
 console.log(Object.name);
+
+
+
