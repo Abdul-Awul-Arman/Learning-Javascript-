@@ -30,7 +30,7 @@ var Myobject = {
   }
 
   // Myobject.AnotherObject.value();
-  Myobject.AnotherObject.value.call(Myobject);
+  Myobject.AnotherObject.value.call(Myobject );
 
 
 // console.log(this);
