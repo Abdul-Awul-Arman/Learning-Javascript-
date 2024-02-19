@@ -107,5 +107,46 @@
 
     // console.log(result);
 
+    // const arr=[1,2,3,4,5,6,7,8,9,10];
+
+
+    // let result=arr.slice(-4,-1);
+    // console.log(result);
+
+
+    // const arr=[1,2,3,4,5,6,7,8,9,10];
+
+    // let result=arr.splice(-1,3,11,30,40);
+
+    // console.log(arr);
+
+
+    // const arr=[1,2,3,4,5,6,7,8,9,10];
+    // const arr2=[1,2,3,4,5,6,7,8,9,10];
+    // const arr3=[1,2,3,4,5,6,7,8,9,10];
+
+    // let result=arr.concat(arr2,arr3);
+
+    // console.log(result);
+
+    // const arr=[1,2,3,4,5,6,7,8,9,10];
+
+    // let result=arr.map(function(value){
+    //    return value*2;
+    // })
+
+    // console.log(result);
+
+    // const arr=[1,2,3,4,5,6,7,8,9,10];
+
+
+    // const sum=arr.reduce(function(preValue,currentValue,currentIndex,){
+    //     return preValue+currentValue;
+    // },0)
+
+    // console.log(sum);
+
+
+
 
 
