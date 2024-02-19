@@ -7,19 +7,68 @@
 
 
 
-let fun = (string,name, age) => {
+// let fun = (string,name, age) => {
     
 
 
-    console.log(string);
-    console.log(name);
-    console.log(age);
-};
+//     console.log(string);
+//     console.log(name);
+//     console.log(age);
+// };
 
-let name='arman';
-let age=30;
+// let name='arman';
+// let age=30;
 
 
 
-fun`this is arman ${name}${age}`;
+// fun`this is arman ${name}${age}`;
+    // let q="this is aramn";
+
+    // const result=q.startsWith('r');
+    // console.log(result);
+
+    // let q="this is arman";
+
+    // const result=q.endsWith('n');
+    // console.log(result);
+
+    
+
+    // let q="this is arman";
+
+    // const result=q.includes('i');
+    // console.log(result);
+
+    // let q="this is arman  ";
+
+    // const result=q.repeat(5);
+
+    //  console.log(result);
+
+    // let q="this is arman  ";
+
+    // const result=q.repeat(5);
+
+    //  console.log(result);
+
+    // const aFunc=()=>console.log('this is form func');
+    // aFunc();
+    
+//     const lex5={
+//         name:'arman',
+//         fun:function(){
+//             console.log(this);
+//         },
+//     }
+
+//   lex5.fun();
+
+
+//    const arr=["arman","araft","somrat","mashrafe"];
+
+//    const[first,second,third,fourth]=arr;
+
+//    console.log(first,second,third,fourth);
+
+    
 
