@@ -70,5 +70,42 @@
 
 //    console.log(first,second,third,fourth);
 
-    
+
+//   const aObject={
+//     aFunc:()=>{
+//         console.log(this)
+
+//         let fun2 =()=>{
+//             console.log(this);
+//         }
+//         return fun2;
+
+//     },
+//     Oname:'first function',
+//   }
+
+//    let result=aObject.aFunc();
+
+//    result();
+  
+
+    // const arr=[1,2,3,4,5,6,7,8,9,10];
+
+    // let value,index;
+
+    // const result=arr.find(function(CurrentValue,CurrentIndex,Mainarr){
+         
+    // })
+
+    // console.log(value,index);
+
+    // const arr=[1,2,3,4,5,6,7,8,9,10];
+
+    // const result=arr.filter(function(CurrentValue){
+    //     return CurrentValue>5
+    // })
+
+    // console.log(result);
+
+
 
