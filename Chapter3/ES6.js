@@ -184,6 +184,20 @@
 
     // fun(arry);
 
+//    const x=(...rest)=>{
+
+
+//       for(var i=0;i<rest.length;i++)
+//       {
+//         console.log(rest[i],i);
+//       }
+//    }
+
+
+
+//    x(1,2,3);
+
+
 
 
 
