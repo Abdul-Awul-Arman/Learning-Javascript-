@@ -157,17 +157,42 @@
 
     // console.log(name,age,hobby);
 
-    const aObject={
-        AnotherObject:{
-            ThirdObject:{
-                title:"this is title",
-            },
-        },
-    }
+    // const aObject={
+    //     AnotherObject:{
+    //         ThirdObject:{
+    //             title:"this is title",
+    //         },
+    //     },
+    // }
 
-    const {AnotherObject:{ThirdObject:{title:thisIsNewTitel}}}=aObject;
+    // const {AnotherObject:{ThirdObject:{title:thisIsNewTitel}}}=aObject;
 
-    console.log(thisIsNewTitel);
+    // console.log(thisIsNewTitel );
+
+
+    // const arry=[1,2,3,4,5,6,7,8,9,10];
+    // const arry2=[10,20,30,40,50,600,70,80,90,100];
+
+    // let result=[...arry,...arry2];
+    // console.log(result);
+
+
+    // let fun=(a,b,c,d,f)=>{
+    //     let sum=(a+b+c+d+f);
+    //     console.log(sum);
+    // }
+
+    // fun(arry);
+
+
+
+
+
+
+
+
+ 
+    
 
 
 
