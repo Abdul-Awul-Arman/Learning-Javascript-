@@ -147,6 +147,31 @@
     // console.log(sum);
 
 
+    // const aObject={
+    //     name:'arman',
+    //     age:32,
+    //     hobby:'reding',
+    // };
+
+    // let {name,age,hobby}=aObject;
+
+    // console.log(name,age,hobby);
+
+    const aObject={
+        AnotherObject:{
+            ThirdObject:{
+                title:"this is title",
+            },
+        },
+    }
+
+    const {AnotherObject:{ThirdObject:{title:thisIsNewTitel}}}=aObject;
+
+    console.log(thisIsNewTitel);
+
+
+
+
 
 
 
