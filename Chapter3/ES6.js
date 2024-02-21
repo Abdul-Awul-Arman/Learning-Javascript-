@@ -198,6 +198,24 @@
 //    x(1,2,3);
 
 
+    class Class{
+        name;
+        roll;
+        age;
+
+        constructor(name,roll,age){
+            this.name=name;
+            this.roll=roll;
+            this.age=age;
+        }
+    }
+
+
+    const NewObject= new Class('arman',1,32);
+
+    console.log(NewObject.name);
+
+
 
 
 
