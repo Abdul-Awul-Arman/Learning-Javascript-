@@ -198,22 +198,50 @@
 //    x(1,2,3);
 
 
-    class Class{
-        name;
-        roll;
-        age;
+    // class Class{
+    //     name;
+    //     roll;
+    //     age;
 
-        constructor(name,roll,age){
-            this.name=name;
-            this.roll=roll;
-            this.age=age;
-        }
-    }
+    //     constructor(name,roll,age){
+    //         this.name=name;
+    //         this.roll=roll;
+    //         this.age=age;
+    //     }
+    // }
 
 
-    const NewObject= new Class('arman',1,32);
+    // const NewObject= new Class('arman',1,32);
 
-    console.log(NewObject.name);
+    // console.log(NewObject.name);
+
+
+    const aMap= new Map();
+
+    aMap.set('FullName','AbdulAwulArman');
+    aMap.set('Friend1','AbdurRahman');
+    aMap.set('Friend2','Ahmed');
+    aMap.set('Friend3','Sadik');
+    aMap.set('Friend4','Sabbir');
+    aMap.set('Friend5','Nur');
+    aMap.set('Friend6','Nur');
+
+    let result=aMap.get('Friend1');
+    // aMap.delete('FullName','AbdulAwulArman');
+    
+    // let result=aMap.has('FullName');
+
+    // aMap.clear();
+
+    // console.log(aMap);
+
+    // aMap.forEach((Property,Key)=>{
+    //     console.log(`This is ${Property} and This is ${Key}`)
+    // })
+
+    
+
+
 
 
 
