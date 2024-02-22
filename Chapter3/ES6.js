@@ -216,17 +216,17 @@
     // console.log(NewObject.name);
 
 
-    const aMap= new Map();
+    // const aMap= new Map();
 
-    aMap.set('FullName','AbdulAwulArman');
-    aMap.set('Friend1','AbdurRahman');
-    aMap.set('Friend2','Ahmed');
-    aMap.set('Friend3','Sadik');
-    aMap.set('Friend4','Sabbir');
-    aMap.set('Friend5','Nur');
-    aMap.set('Friend6','Nur');
+    // aMap.set('FullName','AbdulAwulArman');
+    // aMap.set('Friend1','AbdurRahman');
+    // aMap.set('Friend2','Ahmed');
+    // aMap.set('Friend3','Sadik');
+    // aMap.set('Friend4','Sabbir');
+    // aMap.set('Friend5','Nur');
+    // aMap.set('Friend6','Nur');
 
-    let result=aMap.get('Friend1');
+    // let result=aMap.get('Friend1');
     // aMap.delete('FullName','AbdulAwulArman');
     
     // let result=aMap.has('FullName');
@@ -238,7 +238,70 @@
     // aMap.forEach((Property,Key)=>{
     //     console.log(`This is ${Property} and This is ${Key}`)
     // })
+     
+    // const aFun= function fun(Name,age){
 
+    //     Name? Name=Name:Name='AbdulAwulArman';
+    //     age? age=age:age=30;
+
+    //     console.log(Name,age);
+
+    // }
+
+
+    // aFun('Somrat',31);
+
+
+    // const aFun= function fun(Name='AbdulAwulArman',age=21){
+
+    //     console.log(Name,age);
+
+    // }
+
+
+    // aFun('Somrat',31);
+
+    // const aFun= function fun(Name='AbdulAwulArman',age=21){
+    //     this.Name=Name;
+    //     this.age=age;
+    //     console.log(Name,age);
+
+    // }
+
+
+    // const aObject= new aFun('Arman',31);
+
+
+    // console.log(aObject.Name);
+
+
+    class aClass{
+        constructor(Name,Age,Roll){
+            this.Name=Name;
+            this.Age=Age;
+            this.Roll=Roll;
+        }
+        
+        // aFunction =(Name,Roll,Age)=>{
+        
+        //     console.log(`My Name Is ${this.Name} and my roll is ${this.Roll} and My age is ${this.Age}`);
+        // }
+
+    }
+
+
+    // const aObject= new aClass('Abdulawularman',21,100)
+    // // aObject.aFunction();
+
+    // aClass.prototype.FullDet=function(){
+    //     console.log(this.Name);
+    // }
+
+    // aObject.FullDet();
+
+
+
+   
     
 
 
