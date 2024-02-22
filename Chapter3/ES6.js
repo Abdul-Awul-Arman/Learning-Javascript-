@@ -300,34 +300,34 @@
     // aObject.FullDet();
 
 
-    class ClassOne{
-        constructor(name,roll,age){
-            this.name=name;
-            this.roll=name;
-            this.age=name;
-        }
+    // class ClassOne{
+    //     constructor(name,roll,age){
+    //         this.name=name;
+    //         this.roll=name;
+    //         this.age=name;
+    //     }
 
-        FullDetails(){
-            console.log(`This is name ${this.name} This is roll ${this.roll} This is name ${this.age}`)
-        }
-    }
+    //      FullDetails(){
+    //         console.log(`This is name ${this.name} This is roll ${this.roll} This is name ${this.age}`)
+    //     }
+    // }
 
 
 
-    class ClassTow extends ClassOne{
+    // class ClassTow extends ClassOne{
 
-        constructor(name,roll,age,subject,FullDetails){
+    //     constructor(name,roll,age,subject,FullDetails){
 
-            super(name,roll,age,FullDetails);
-            this.subject=subject
+    //         super(name,roll,age,FullDetails);
+    //         this.subject=subject
 
-        }
+    //     }
         
-    }
+    // }
 
 
-    const aObject= new ClassTow('arman',20,21,'pro')
+    // const aObject= new ClassTow('arman',20,21,'pro')
 
 
-    aObject.FullDetails();
+    // aObject.FullDetails();
 
