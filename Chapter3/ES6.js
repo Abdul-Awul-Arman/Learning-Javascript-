@@ -275,19 +275,19 @@
     // console.log(aObject.Name);
 
 
-    class aClass{
-        constructor(Name,Age,Roll){
-            this.Name=Name;
-            this.Age=Age;
-            this.Roll=Roll;
-        }
+    // class aClass{
+    //     constructor(Name,Age,Roll){
+    //         this.Name=Name;
+    //         this.Age=Age;
+    //         this.Roll=Roll;
+    //     }
         
         // aFunction =(Name,Roll,Age)=>{
         
         //     console.log(`My Name Is ${this.Name} and my roll is ${this.Roll} and My age is ${this.Age}`);
         // }
 
-    }
+    // }
 
 
     // const aObject= new aClass('Abdulawularman',21,100)
@@ -300,26 +300,34 @@
     // aObject.FullDet();
 
 
+    class ClassOne{
+        constructor(name,roll,age){
+            this.name=name;
+            this.roll=name;
+            this.age=name;
+        }
 
-   
-    
-
-
-
-
-
-
-
-
-
-
-
- 
-    
+        FullDetails(){
+            console.log(`This is name ${this.name} This is roll ${this.roll} This is name ${this.age}`)
+        }
+    }
 
 
 
+    class ClassTow extends ClassOne{
+
+        constructor(name,roll,age,subject,FullDetails){
+
+            super(name,roll,age,FullDetails);
+            this.subject=subject
+
+        }
+        
+    }
 
 
+    const aObject= new ClassTow('arman',20,21,'pro')
 
+
+    aObject.FullDetails();
 
