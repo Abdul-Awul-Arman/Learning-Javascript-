@@ -1,14 +1,9 @@
-    function aFun(){
-
-        console.log('This form winedow');
-    }
-
-
-    const asyncFun=()=>{
+    
+    const asyncFun=(callback)=>{
 
             console.log("This form async");
             setTimeout(()=>{
-                aFun();
+                callback();
                 console.log("this form setTimeout");
             },3000);
 
@@ -16,6 +11,11 @@
 
         }
 
-        asyncFun();
+        function aFun(){
+
+            console.log('This form winedow');
+        }
+
+        asyncFun(aFun);
         
         
