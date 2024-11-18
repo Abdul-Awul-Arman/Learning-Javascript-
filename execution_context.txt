@@ -1,0 +1,27 @@
+The behavior you're observing is due to how **variable declarations** in JavaScript work and how they interact with the **global object (`window` in browsers)**.
+
+### Key Concepts:
+1. ** `var` declarations:**
+    - Variables declared with `var` in the global scope are added as properties of the global object(`window` in browsers).
+   - Example:
+```javascript
+     var a = 10;
+     console.log(window.a); // 10
+     ```
+
+2. ** `let` and `const` declarations:**
+    - Variables declared with `let` or `const` are not added as properties of the global object, even if declared in the global scope.They exist in the ** block scope ** and are not tied to the global object.
+   - Example:
+```javascript
+     let b = 20;
+     console.log(window.b); // undefined
+     ```
+
+### Why the Difference ?
+    This behavior is part of JavaScript's **scope handling evolution**:
+        - ** `var` ** is function-scoped and was introduced in older versions of JavaScript(ES3 / ES5).Adding `var` variables to the global object made sense at the time.
+- ** `let` ** and ** `const` ** were introduced in ES6(2015) to provide block - scoped variables and avoid the potential issues of`var`, including unintended modifications to the global object.
+
+### Summary:
+- ** `var` variables ** are part of the global object(`window.a` works in browsers).
+- ** `let` and `const` variables ** are not part of the global object, making them safer and less prone to accidental overwrites or conflicts.
