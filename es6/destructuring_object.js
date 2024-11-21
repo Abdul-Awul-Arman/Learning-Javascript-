@@ -3,7 +3,7 @@ let abdulAwulArman = {
     age: 22,
     religion: "islam",
     futureWife: {
-        name: "ifra jannat",
+        name: "unknow",
         age: 15,
         religion: "islam",
         skill: ["hafiza", "beautiful"]
